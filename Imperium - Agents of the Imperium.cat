@@ -7425,7 +7425,7 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="a342-4062-80a9-24bf" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </selectionEntry>
-                      <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="f629-44c7-ffd5-1acf">
+            <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="f629-44c7-ffd5-1acf">
               <profiles>
                 <profile name="Storm bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3b91-3c6f-5f9d-5259">
                   <characteristics>
@@ -7494,8 +7494,12 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="bfd4-2575-e8d7-1f09">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6bc5-c0ed-8724-a3d6-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bc5-c0ed-8724-a3d6-max" includeChildSelections="false"/>
+              </constraints>
               <profiles>
-                <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="506a-5ec5-393c-0b2f">
+                <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6bc1-f863-9e59-fbb0">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
@@ -7505,21 +7509,8 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
-                  <modifiers>
-                    <modifier type="increment" value="1" field="41a0-1301-112a-e2f2">
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-min" includeChildSelections="false"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-max" includeChildSelections="false"/>
-                          </constraints>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                  </modifiers>
                 </profile>
               </profiles>
-              <comment>S8</comment>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
