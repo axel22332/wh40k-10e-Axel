@@ -7536,32 +7536,6 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="89df-f516-c0b8-1208" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </entryLink>
-            <entryLink import="true" name="Multi-melta" hidden="false" id="1946-f4ed-87d2-d352" type="selectionEntry" targetId="5f8c-4833-2298-a8fa">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6936-9985-da9e-fe5d"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="e635-df8f-04c4-2fb1" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Twin heavy bolter" hidden="false" id="cd10-6837-f6e9-7175" type="selectionEntry" targetId="5ce2-f958-e9cf-e009">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ec-e7e8-f0dc-dec7"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6775-ae10-22c-bae5"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="410f-3845-1469-17d0" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Armoured tracks" hidden="false" id="1e42-f2fa-1b1c-d50e" type="selectionEntry" targetId="bfd4-2575-e8d7-1f09">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c00-9f2d-6f65-5da2" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c79-25f4-90bf-4cd7" includeChildSelections="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="5780-1806-42bb-7cf4" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
