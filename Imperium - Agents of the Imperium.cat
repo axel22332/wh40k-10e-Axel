@@ -7451,6 +7451,9 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="5f8c-4833-2298-a8fa">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf5-08ed-975c-011a"/>
+              </constraints>
               <infoLinks>
                 <infoLink name="Melta" id="9b98-3642-3dab-2003" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
               </infoLinks>
