@@ -7435,12 +7435,9 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="462f-3667-9373-bd33" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </entryLink>
-            <entryLink import="true" name="Hunter-killer missile" hidden="false" id="0c46-d2d0-f238-a8ec" type="selectionEntry" targetId="3790-5850-3cab-142c">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5018-47b0-43a0-a227" includeChildSelections="false"/>
-              </constraints>
+            <entryLink import="true" name="Hunter-killer missile" hidden="false" id="370d-af51-ad2b-723f" type="selectionEntry" targetId="996b-13b4-622c-928e">
               <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="e54c-a5f9-417a-27e9" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="89df-f516-c0b8-1208" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </entryLink>
             <entryLink import="true" name="Multi-melta" hidden="false" id="1946-f4ed-87d2-d352" type="selectionEntry" targetId="5f8c-4833-2298-a8fa">
