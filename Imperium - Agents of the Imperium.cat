@@ -7410,49 +7410,17 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="910b-358e-b51f-5b44" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Armoured Tracks" hidden="false" id="9646-f7ed-1896-1922" type="selectionEntry" targetId="eaa5-a41b-9e59-a5f3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b48-1527-cd3a-c939"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3994-435d-796c-99ab"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="05de-9fd7-3bf6-393d" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Hunter-killer missile" hidden="false" id="804-919e-7c4-2cab" type="selectionEntry" targetId="2523-36d-531f-9910">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1fd-66d5-491e-e5c1"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="6221-6f26-d520-c37b" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Multi-melta" hidden="false" id="e6c8-d4b2-1c37-26de" type="selectionEntry" targetId="395-4b75-b9b2-7a5c">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bdd-f2b9-3b3f-4c1b"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="f0d5-c949-0ac4-3360" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Storm Bolter" hidden="false" id="8ec3-76a5-fcd8-ea80" type="selectionEntry" targetId="eb61-5cd0-5242-74cc">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a67f-2ff9-49f1-2be1"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="67dd-7e38-fefb-ec86" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="93d1-f785-ad6a-fc54" type="selectionEntry" targetId="d107-1e89-9d3f-c9c7">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1a3-a479-8d83-d53a"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b4c-701d-3dd-a4ed"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Weapon Modifications" hidden="false" id="404f-dc22-dc45-e840" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
-              </entryLinks>
-            </entryLink>
-          </entryLinks>
+              <entryLink import="true" name="Armoured tracks" hidden="false" id="3c83-d45d-032b-a073" type="selectionEntry" targetId="4d82-568a-e3fe-59f3">
+                <entryLinks>
+                  <entryLink import="true" name="Weapon Modifications" hidden="false" id="c9af-9ef5-e5a3-edbb" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                </entryLinks>
+              </entryLink>
+              <entryLink import="true" name="Hunter-killer missile" hidden="false" id="370d-af51-ad2b-723f" type="selectionEntry" targetId="996b-13b4-622c-928e">
+                <entryLinks>
+                  <entryLink import="true" name="Weapon Modifications" hidden="false" id="89df-f516-c0b8-1208" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+                </entryLinks>
+              </entryLink>
+            </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Godhammer Lascannon" hidden="false" id="7c56-d514-6af0-22da">
               <constraints>
