@@ -7403,6 +7403,31 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="5a74-a429-f0b7-e62f" hidden="false" sortIndex="2">
           <selectionEntries>
+          <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="f629-44c7-ffd5-1acf">
+              <profiles>
+                <profile name="Storm bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3b91-3c6f-5f9d-5259">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="0182-8ae2-4383-b2ff" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-max" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="023b-7006-ff10-ddb5" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
+            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Godhammer lascannon" hidden="false" id="ff0-5d7d-c73b-9c5f">
               <profiles>
                 <profile name="Godhammer lascannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="da8a-8a15-3669-95d0">
