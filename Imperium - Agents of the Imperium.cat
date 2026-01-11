@@ -17790,17 +17790,6 @@ For the purposes of interacting with terrain features, all models in units with 
       </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Land Raider" hidden="false" type="selectionEntry" id="99b4-6a62-b540-e864" targetId="512d-b972-911e-4cac"/>
-          <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category"/>
-          </modifiers>
-          <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b00-cd86-4b4c-97ba" shared="true"/>
-          </conditions>
-        </modifierGroup>
-      </modifierGroups>
-    </entryLink>
     <entryLink import="true" name="Imperial Rhino" hidden="false" id="2282-00e8-c005-21a3" type="selectionEntry" targetId="cbbd-8e0a-fd90-fa0d">
       <modifierGroups>
         <modifierGroup type="and">
