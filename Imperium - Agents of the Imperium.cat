@@ -7450,9 +7450,12 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                 <entryLink import="true" name="Weapon Modifications" hidden="false" id="023b-7006-ff10-ddb5" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="5f8c-4833-2298-a8fa" collective="false">
+            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="5f8c-4833-2298-a8fa">
+              <infoLinks>
+                <infoLink name="Melta" id="9b98-3642-3dab-2003" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+              </infoLinks>
               <profiles>
-                <profile name="Multi-melta" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b170-f057-79bc-423c">
+                <profile name="Multi-melta" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b489-a443-39a9-e6c1">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -7464,19 +7467,16 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                   </characteristics>
                 </profile>
               </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Melta" id="9bf3-e538-e1a2-cbfb" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
-              </infoLinks>
               <categoryLinks>
-                <categoryLink name="Damage Dx Weapon" hidden="false" id="126a-1adc-82fd-ecaa" targetId="4986-bf86-beb4-13ac" primary="false"/>
+                <categoryLink name="Damage Dx Weapon" hidden="false" id="e893-8387-a964-9ba1" targetId="4986-bf86-beb4-13ac" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="5ce2-f958-e9cf-e009">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf5-08ed-975c-011a"/>
+              </constraints>
               <profiles>
-                <profile name="Twin heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ab2f-ea73-ff7f-d6f7">
+                <profile name="Twin heavy bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8005-dced-cef7-e465">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -7484,14 +7484,17 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Twin-Linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 2, Twin-Linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Twin-linked" id="81b7-de3f-d0d3-5a7a" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-                <infoLink name="Sustained Hits" id="4d7e-b430-f081-a0e2" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Sustained Hits" id="ab41-32cd-9370-c478" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Twin-linked" id="53fb-32f0-2ff2-ebd2" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Weapon Modifications" hidden="false" id="0702-49fb-c413-be26" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9"/>
+              </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="bfd4-2575-e8d7-1f09">
               <constraints>
