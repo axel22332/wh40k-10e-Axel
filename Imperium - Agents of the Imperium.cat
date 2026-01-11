@@ -7313,7 +7313,7 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
         </profile>
         <profile name="Imperial Land Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="511a-e5a0-5e4f-89e4">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 ^^**AGENTS OF THE IMPERIUM INFANTRY^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7509,10 +7509,10 @@ When mustering your army, each ^^Officio Assassinorum^^ unit from your army has 
                     <modifier type="increment" value="1" field="41a0-1301-112a-e2f2">
                       <conditionGroups>
                         <conditionGroup type="and">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="fd57-61c6-39a4-dee3" shared="true" includeChildSelections="true"/>
-                            <condition type="atLeast" value="1" field="selections" scope="self" childId="128d-c573-273f-47b5" shared="true" includeChildSelections="true"/>
-                          </conditions>
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-min" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3a2-3be5-1384-cc0b-max" includeChildSelections="false"/>
+                          </constraints>
                         </conditionGroup>
                       </conditionGroups>
                     </modifier>
