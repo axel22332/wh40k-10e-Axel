@@ -126,7 +126,7 @@
             <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
           <profiles>
-            <profile name="Micromelta Round" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="true" id="2992-78d6-3deb-f5b7">
+            <profile name="Micromelta Round" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2992-78d6-3deb-f5b7">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model’s exitus rifle has the [ANTI‑MONSTER 4+] and [ANTI‑VEHICLE 4+] abilities.</characteristic>
               </characteristics>
