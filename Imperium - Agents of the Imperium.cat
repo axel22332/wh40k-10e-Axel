@@ -12,6 +12,9 @@
         <categoryLink targetId="bbce-4a66-765f-6f5f" id="1a2b-c659-2355-cec8" primary="false" name="Vindicare Assassin"/>
         <categoryLink name="Officio Assassinorum" hidden="false" id="1118-2860-eef5-aa28" targetId="a4ee-37ff-8c62-fd6b" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e868-1946-826d-0ffd" type="selectionEntryGroup" targetId="c3c8-4ca0-ec6e-6686" sortIndex="1"/>
+      </entryLinks>
       <profiles>
         <profile name="Vindicare Assassin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="94c5-3879-7961-3f56">
           <characteristics>
@@ -117,7 +120,7 @@
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="efa3-2cf5-dcfb-b976" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -19008,6 +19011,41 @@ For the purposes of interacting with terrain features, all models in units with 
                       <conditions>
                         <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
                         <condition type="lessThan" value="1" field="selections" scope="roster" childId="5347-93e5-b3f2-366d" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Combat Landers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f3e-7625-1e45-b9ae">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the Declare Battle Formations step, you can select up to three VOIDFARERS units from your army - those units gain the Deep Strike ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Micromelta Rounds" hidden="false" id="ab5d-7944-acf3-eb57">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0c6-2a8d-aec1-53f7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8d1-9ebf-1550-3b25" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="7aea-df68-2ade-9bd6" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
