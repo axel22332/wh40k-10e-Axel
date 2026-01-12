@@ -116,7 +116,7 @@
         <selectionEntry type="upgrade" import="true" name="Micromelta Round" hidden="true" id="bcba-352d-f7f2-84ba">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="739e-281f-b103-c96a" includeChildSelections="false"/>
-            <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="6651-4ef1-484f-30a1" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6651-4ef1-484f-30a1" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
