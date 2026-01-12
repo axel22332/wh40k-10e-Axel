@@ -438,7 +438,7 @@
             <infoLink name="Anti-" id="d5f8-0dc1-8779-119d" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Intra-neural Biotech" hidden="true" id="40ac-b010-39d2-5e11">
+        <selectionEntry type="upgrade" import="true" name="Intra-neural Biotech" hidden="false" id="40ac-b010-39d2-5e11">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
@@ -566,7 +566,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Decoy Targets" hidden="true" id="eb7b-611d-308e-6436">
+        <selectionEntry type="upgrade" import="true" name="Decoy Targets" hidden="false" id="eb7b-611d-308e-6436">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
