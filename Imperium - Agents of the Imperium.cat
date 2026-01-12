@@ -119,7 +119,6 @@
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
-              <comment>Legends visibility</comment>
             </modifier>
           </modifiers>
           <constraints>
@@ -308,10 +307,17 @@
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Esoteric Explosives" hidden="true" id="cb38-27d5-6d94-baca">
+        <selectionEntry type="upgrade" import="true" name="Esoteric Explosives" hidden="false" id="cb38-27d5-6d94-baca">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="817a-e756-2a83-061b" includeChildSelections="false"/>
-            <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="b178-2e42-4b6c-804f" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b178-2e42-4b6c-804f" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
@@ -327,17 +333,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden"/>
-                <modifier type="set" value="1" field="b178-2e42-4b6c-804f"/>
-              </modifiers>
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
@@ -444,9 +439,16 @@
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Intra-neural Biotech" hidden="true" id="40ac-b010-39d2-5e11">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18dc-1c3e-9685-ba95" includeChildSelections="false"/>
-            <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="0d17-33c8-c997-2a32" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0d17-33c8-c997-2a32" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
@@ -462,17 +464,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden"/>
-                <modifier type="set" value="1" field="0d17-33c8-c997-2a32"/>
-              </modifiers>
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Power sword and neuro gauntlet" hidden="false" id="3779-dd93-7ef8-d87e">
           <profiles>
@@ -576,9 +567,16 @@
       </profiles>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Decoy Targets" hidden="true" id="eb7b-611d-308e-6436">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34eb-75e3-0ede-d629" includeChildSelections="false"/>
-            <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="8a04-ccf3-9c4f-4e4e" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8a04-ccf3-9c4f-4e4e" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
@@ -594,17 +592,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden"/>
-                <modifier type="set" value="1" field="8a04-ccf3-9c4f-4e4e"/>
-              </modifiers>
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="e203-73dc-18d9-f390" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Neural shredder" hidden="false" id="b9bc-32e4-2345-7bbb">
           <constraints>
