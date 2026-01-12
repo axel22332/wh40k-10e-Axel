@@ -113,7 +113,7 @@
             </infoLink>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Micromelta Round" hidden="true" id="bcba-352d-f7f2-84ba">
+        <selectionEntry type="upgrade" import="true" name="Micromelta Round" hidden="false" id="bcba-352d-f7f2-84ba">
           <modifier type="set" value="true" field="hidden">
             <conditions>
               <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ed-cbf4-bfe5-90bf" shared="true" id="60cf-9f79-d36f-b951" includeChildSelections="true" includeChildForces="true"/>
